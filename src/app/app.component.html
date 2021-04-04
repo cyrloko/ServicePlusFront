@@ -1,1 +1,10 @@
 <app-personne></app-personne>
+<div *ngFor="let personne of personnes">
+    <div class="col-lg-4 col-md-4 col-sm-4 gallery">
+        <p>{{personne.nom}}</p>
+        <p>{{personne.prenom}}</p>
+        <p>{{personne.dateNaissance}}</p>
+        <p>{{personne.adreesseMail}}</p>
+
+    </div>
+</div>

@@ -7,7 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PersonneComponent implements OnInit {
 
-  constructor() { }
+  /*nom: string
+  prenom: string
+  dateNaissance: Date
+  adreesseMail: string
+
+  constructor(
+    nom: string,
+    prenom: string,
+    dateNaissance: Date,
+    adreesseMail: string) {
+      this.nom = nom
+      this.prenom = prenom
+      this.adreesseMail = adreesseMail
+      this.dateNaissance = dateNaissance
+     };*/
+
+     constructor() {};
 
   ngOnInit(): void {
   }
